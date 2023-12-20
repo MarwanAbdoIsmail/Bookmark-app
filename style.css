@@ -1,0 +1,74 @@
+body{
+    font-family: "PT Sans Caption", "sans-serif";
+    background-color: #f7ecde;
+    }
+
+
+h1 {
+
+     font-family: "Pacifico", cursive;
+     font-size: 3rem;
+     isolation: isolate;
+
+}
+
+
+h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 20px;
+    left: 0;
+    background-color: #fec260;
+    z-index: -1;
+    transition: height 0.5s;
+
+}
+h1:hover::after {
+    height: 40%;
+}
+
+
+.bookmarker-main {
+   border-top:  2px dotted;
+   border-bottom:  2px dotted;
+}
+
+.bookmarker-main h2 {
+font-family: "Righteous", cursive;
+color: #3ca55c;
+}
+.bookmarker-main .book-1 {
+color:#3ca55c
+}
+
+.bookmarker-main .book-2 {
+    color: #b5ac49;
+}
+.form-control:focus {
+box-shadow: 0 0 0 0.25rem #fec26055 !important;
+border-color: #d99c39 !important;
+}
+#btn-submit  {
+background-color: #d1512d ;
+border-color:#d1512d;
+}
+
+ #btn-delete{
+    background-color: #eb1d36;
+ }
+
+
+#btn-submit:hover , #btn-delete:hover {
+    background-color: #bb4120;
+}
+
+#btn-visit {
+    background-color: #9eb23b;
+    border-color: #9eb23b;
+}
+
+#btn-visit:hover{
+    background-color: #8a9e23;
+}
